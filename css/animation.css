@@ -1,0 +1,26 @@
+@keyframes lado {
+    0% {
+    		transform: translateX(-270px);
+    }
+    100% {
+    		transform: translateX(270);
+    }
+}
+
+@keyframes pisca {
+		0%,100% {
+				opacity: 1;
+		}
+		50% {
+				opacity: 0;
+		}
+}
+
+@keyframes fade {
+		0% {
+				opacity: 0.3;
+		}
+  100% {
+  		opacity: 1;
+  }
+}
